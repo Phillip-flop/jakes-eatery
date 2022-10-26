@@ -1,0 +1,76 @@
+/* Navigation styles */
+body {
+    margin: 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.nav a {
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+
+/* Column styles */
+
+.column {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+.meal {
+    background-size: cover;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#image-1 {
+    background-image: url("../images/steak.png");
+}
+
+#image-2 {
+    background-image: url("../images/soup.png");
+}
+
+#image-3 {
+    background-image: url("../images/cheesecake.png");
+}
+
+.text {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+}
+
+.text h1, p {
+    color: white;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
